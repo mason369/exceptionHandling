@@ -1,0 +1,36 @@
+{
+  "name": "exceptionhandling",
+  "version": "1.0.0",
+  "description": "提供用于包装异步函数和类方法的 try-catch 函数，用于捕获异常并输出错误日志。使用 asyncTryCatch 函数可以方便地包装一个异步函数，并返回一个具有相同参数和返回值类型的新函数，在发生异常时会输出错误日志并返回 undefined 。而使用 classAsyncTryCatch 函数可以自动为类中所有异步方法添加 try-catch 包装，同样在发生异常时会输出错误日志并返回 undefined。这些函数能够帮助开发者更好地处理异步任务中的异常情况，提高代码的健壮性和可靠性。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mason369/exceptionHandling.git"
+  },
+  "keywords": [
+    "asyncTryCatch",
+    "classAsyncTryCatch",
+    "wrapping",
+    "asynchronous",
+    "functions",
+    "try-catch",
+    "error",
+    "handling",
+    "logging",
+    "异步函数",
+    "日志记录",
+    "类方法",
+    "参数",
+    "返回值",
+    "继承"
+  ],
+  "author": "mason369",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mason369/exceptionHandling/issues"
+  },
+  "homepage": "https://github.com/mason369/exceptionHandling#readme"
+}
